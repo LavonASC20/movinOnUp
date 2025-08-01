@@ -7,23 +7,23 @@ export const LandingPageSubsection = (): JSX.Element => {
   const teamMembers = [
     {
       name: "Lavon Sykes",
-      image: "",
+      imageSource: "src/components/ui/lavon.png",
     },
     {
       name: "Maame Forson",
-      image: "",
+      imageSource: "src/components/ui/maame.png",
     },
     {
       name: "Barisere Tuka",
-      image: "",
+      imageSource: "src/components/ui/bari.png",
     },
     {
       name: "Hannah Munzberg",
-      image: "",
+      imageSource: "src/components/ui/hannah.png",
     },
     {
       name: "Alissandra Perez",
-      image: "",
+      imageSource: "src/components/ui/ailyn.png",
     },
   ];
 
@@ -64,7 +64,7 @@ export const LandingPageSubsection = (): JSX.Element => {
         </div>
 
         <div className="mt-8 w-full max-w-[1000px]">
-          <img src="src/components/ui/usLetter.png" className="w-full h-auto object-cover" alt="Us letter" />
+          <img src="src/components/ui/usLetter.png" className="w-full h-auto object-cover" alt="Us letter image" />
         </div>
       </div>
 
@@ -110,7 +110,7 @@ export const LandingPageSubsection = (): JSX.Element => {
 
           <div className="w-full md:w-1/2">
             <div className="rounded-[8px_0px_0px_8px] overflow-hidden">
-              <img className="w-full h-auto object-cover" alt="Image" />
+              <img className="w-full h-auto object-cover" src="src/components/ui/landingpage1.png" alt="Our Mission image" />
             </div>
           </div>
         </div>
@@ -124,7 +124,7 @@ export const LandingPageSubsection = (): JSX.Element => {
 
         <div className="flex flex-col md:flex-row gap-8 items-center">
           <div className="w-full md:w-1/2">
-            <img className="w-full h-auto object-cover" alt="Image" />
+            <img className="w-full h-auto object-cover" src = "src/components/ui/landingpage2.png" alt="Our goals image" />
           </div>
 
           <div className="w-full md:w-1/2">
@@ -149,7 +149,7 @@ export const LandingPageSubsection = (): JSX.Element => {
 
       {/* Who We Are Section */}
       <div className="container mx-auto px-4 py-12">
-        <h2 className="text-[55px] font-semibold text-[#00000033] tracking-[-1.10px] font-['Inter',Helvetica] underline text-center mb-12 [text-shadow:0px_4px_4px_#00000040] [-webkit-text-stroke:1px_#000000]">
+        <h2 className="text-[55px] font-semibold text-black tracking-[-1.10px] font-['Inter',Helvetica] underline text-center mb-12 [text-shadow:0px_4px_4px_#00000040] [-webkit-text-stroke:1px_#000000]">
           Who We Are
         </h2>
 
@@ -161,7 +161,7 @@ export const LandingPageSubsection = (): JSX.Element => {
                   <img
                     className="w-full h-[405px] object-cover"
                     alt={member.name}
-                    src={member.image}
+                    src={member.imageSource}
                   />
                 </div>
                 <div className="mt-6 text-center">
@@ -182,7 +182,7 @@ export const LandingPageSubsection = (): JSX.Element => {
                   <img
                     className="w-full h-[405px] object-cover"
                     alt={member.name}
-                    src={member.image}
+                    src={member.imageSource}
                   />
                 </div>
                 <div className="mt-6 text-center">

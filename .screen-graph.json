@@ -32,15 +32,79 @@
   ],
   "edges": [
     {
-      "id": "src\\screens\\Frame\\sections\\NavbarSubsection\\NavbarSubsection.tsx:27:16-to-src\\screens\\Frame\\sections\\OurServicesSubsection\\OurServicesSubsection.tsx",
+      "id": "src\\screens\\Frame\\sections\\LandingPageSubsection\\LandingPageSubsection.tsx:103:14-to-src\\screens\\Frame\\sections\\OurServicesSubsection\\OurServicesSubsection.tsx",
       "source": "src\\screens\\Frame\\sections\\LandingPageSubsection\\LandingPageSubsection.tsx",
       "target": "src\\screens\\Frame\\sections\\OurServicesSubsection\\OurServicesSubsection.tsx",
       "data": {
         "viaRoute": "/ourservices",
         "trigger": {
-          "element": "<a href = \"/ourservices\">\r\n                    <Button className=\"bg-black text-white rounded-lg shadow-button-shadow\" href=\"/ourservices\">\r\n                    Book Now\r\n                    </Button>\r\n                </a>",
-          "line": 27,
-          "endLine": 31,
+          "element": "<a href = \"/ourservices\">\r\n                <Button className=\"bg-[#a18eff] rounded-lg shadow-button-shadow text-white text-2xl px-6 py-3 font-medium font-['Inter',Helvetica]\">\r\n                  Our Offerings\r\n                </Button>\r\n              </a>",
+          "line": 103,
+          "endLine": 107,
+          "column": 14,
+          "endColumn": 18,
+          "sourceFile": "src\\screens\\Frame\\sections\\LandingPageSubsection\\LandingPageSubsection.tsx"
+        }
+      }
+    },
+    {
+      "id": "src\\screens\\Frame\\sections\\LandingPageSubsection\\LandingPageSubsection.tsx:140:14-to-src\\screens\\Frame\\sections\\OurMissionSubsection\\OurMissionSubsection.tsx",
+      "source": "src\\screens\\Frame\\sections\\LandingPageSubsection\\LandingPageSubsection.tsx",
+      "target": "src\\screens\\Frame\\sections\\OurMissionSubsection\\OurMissionSubsection.tsx",
+      "data": {
+        "viaRoute": "/ourmission",
+        "trigger": {
+          "element": "<a href = \"/ourmission\">\r\n                <Button className=\"bg-[#a18eff] rounded-lg shadow-button-shadow text-white text-2xl px-6 py-3 font-medium font-['Inter',Helvetica]\">\r\n                  Find Out More\r\n                </Button>\r\n              </a>",
+          "line": 140,
+          "endLine": 144,
+          "column": 14,
+          "endColumn": 18,
+          "sourceFile": "src\\screens\\Frame\\sections\\LandingPageSubsection\\LandingPageSubsection.tsx"
+        }
+      }
+    },
+    {
+      "id": "src\\screens\\Frame\\sections\\LandingPageSubsection\\LandingPageSubsection.tsx:199:10-to-src\\screens\\Frame\\sections\\OurTeamSubsection\\OurTeamSubsection.tsx",
+      "source": "src\\screens\\Frame\\sections\\LandingPageSubsection\\LandingPageSubsection.tsx",
+      "target": "src\\screens\\Frame\\sections\\OurTeamSubsection\\OurTeamSubsection.tsx",
+      "data": {
+        "viaRoute": "/ourteam",
+        "trigger": {
+          "element": "<a href = \"/ourteam\">\r\n            <Button className=\"bg-[#a18eff] rounded-lg shadow-button-shadow text-white text-2xl px-6 py-3 font-medium font-['Inter',Helvetica]\">\r\n              Full Tutor Profiles\r\n            </Button>\r\n          </a>",
+          "line": 199,
+          "endLine": 203,
+          "column": 10,
+          "endColumn": 14,
+          "sourceFile": "src\\screens\\Frame\\sections\\LandingPageSubsection\\LandingPageSubsection.tsx"
+        }
+      }
+    },
+    {
+      "id": "src\\screens\\Frame\\sections\\NavbarSubsection\\NavbarSubsection.tsx:17:8-to-src\\screens\\Frame\\sections\\LandingPageSubsection\\LandingPageSubsection.tsx",
+      "source": "src\\screens\\Frame\\sections\\LandingPageSubsection\\LandingPageSubsection.tsx",
+      "target": "src\\screens\\Frame\\sections\\LandingPageSubsection\\LandingPageSubsection.tsx",
+      "data": {
+        "viaRoute": "/",
+        "trigger": {
+          "element": "<a href=\"/\" className=\"text-2xl font-bold text-black\">\r\n          <img src=\"src\\components\\ui\\yellowFill.png\" alt=\"Logo\" className=\"h-10\" /> \r\n        </a>",
+          "line": 17,
+          "endLine": 19,
+          "column": 8,
+          "endColumn": 12,
+          "sourceFile": "src\\screens\\Frame\\sections\\NavbarSubsection\\NavbarSubsection.tsx"
+        }
+      }
+    },
+    {
+      "id": "src\\screens\\Frame\\sections\\NavbarSubsection\\NavbarSubsection.tsx:30:16-to-src\\screens\\Frame\\sections\\OurServicesSubsection\\OurServicesSubsection.tsx",
+      "source": "src\\screens\\Frame\\sections\\LandingPageSubsection\\LandingPageSubsection.tsx",
+      "target": "src\\screens\\Frame\\sections\\OurServicesSubsection\\OurServicesSubsection.tsx",
+      "data": {
+        "viaRoute": "/ourservices",
+        "trigger": {
+          "element": "<a href = \"/ourservices\">\r\n                    <Button className=\"bg-black text-white rounded-lg shadow-button-shadow\">\r\n                    Book Now\r\n                    </Button>\r\n                </a>",
+          "line": 30,
+          "endLine": 34,
           "column": 16,
           "endColumn": 20,
           "sourceFile": "src\\screens\\Frame\\sections\\NavbarSubsection\\NavbarSubsection.tsx"
@@ -48,31 +112,31 @@
       }
     },
     {
-      "id": "src\\screens\\Frame\\sections\\NavbarSubsection\\NavbarSubsection.tsx:28:20-to-src\\screens\\Frame\\sections\\OurServicesSubsection\\OurServicesSubsection.tsx",
+      "id": "src\\screens\\Frame\\sections\\NavbarSubsection\\NavbarSubsection.tsx:17:8-to-src\\screens\\Frame\\sections\\LandingPageSubsection\\LandingPageSubsection.tsx",
       "source": "src\\screens\\Frame\\sections\\LandingPageSubsection\\LandingPageSubsection.tsx",
-      "target": "src\\screens\\Frame\\sections\\OurServicesSubsection\\OurServicesSubsection.tsx",
+      "target": "src\\screens\\Frame\\sections\\LandingPageSubsection\\LandingPageSubsection.tsx",
       "data": {
-        "viaRoute": "/ourservices",
+        "viaRoute": "/",
         "trigger": {
-          "element": "<Button className=\"bg-black text-white rounded-lg shadow-button-shadow\" href=\"/ourservices\">\r\n                    Book Now\r\n                    </Button>",
-          "line": 28,
-          "endLine": 30,
-          "column": 20,
-          "endColumn": 29,
+          "element": "<a href=\"/\" className=\"text-2xl font-bold text-black\">\r\n          <img src=\"src\\components\\ui\\yellowFill.png\" alt=\"Logo\" className=\"h-10\" /> \r\n        </a>",
+          "line": 17,
+          "endLine": 19,
+          "column": 8,
+          "endColumn": 12,
           "sourceFile": "src\\screens\\Frame\\sections\\NavbarSubsection\\NavbarSubsection.tsx"
         }
       }
     },
     {
-      "id": "src\\screens\\Frame\\sections\\NavbarSubsection\\NavbarSubsection.tsx:27:16-to-src\\screens\\Frame\\sections\\OurServicesSubsection\\OurServicesSubsection.tsx",
+      "id": "src\\screens\\Frame\\sections\\NavbarSubsection\\NavbarSubsection.tsx:30:16-to-src\\screens\\Frame\\sections\\OurServicesSubsection\\OurServicesSubsection.tsx",
       "source": "src\\screens\\Frame\\sections\\LandingPageSubsection\\LandingPageSubsection.tsx",
       "target": "src\\screens\\Frame\\sections\\OurServicesSubsection\\OurServicesSubsection.tsx",
       "data": {
         "viaRoute": "/ourservices",
         "trigger": {
-          "element": "<a href = \"/ourservices\">\r\n                    <Button className=\"bg-black text-white rounded-lg shadow-button-shadow\" href=\"/ourservices\">\r\n                    Book Now\r\n                    </Button>\r\n                </a>",
-          "line": 27,
-          "endLine": 31,
+          "element": "<a href = \"/ourservices\">\r\n                    <Button className=\"bg-black text-white rounded-lg shadow-button-shadow\">\r\n                    Book Now\r\n                    </Button>\r\n                </a>",
+          "line": 30,
+          "endLine": 34,
           "column": 16,
           "endColumn": 20,
           "sourceFile": "src\\screens\\Frame\\sections\\NavbarSubsection\\NavbarSubsection.tsx"
@@ -80,31 +144,31 @@
       }
     },
     {
-      "id": "src\\screens\\Frame\\sections\\NavbarSubsection\\NavbarSubsection.tsx:28:20-to-src\\screens\\Frame\\sections\\OurServicesSubsection\\OurServicesSubsection.tsx",
+      "id": "src\\screens\\Frame\\sections\\NavbarSubsection\\NavbarSubsection.tsx:17:8-to-src\\screens\\Frame\\sections\\LandingPageSubsection\\LandingPageSubsection.tsx",
       "source": "src\\screens\\Frame\\sections\\LandingPageSubsection\\LandingPageSubsection.tsx",
-      "target": "src\\screens\\Frame\\sections\\OurServicesSubsection\\OurServicesSubsection.tsx",
+      "target": "src\\screens\\Frame\\sections\\LandingPageSubsection\\LandingPageSubsection.tsx",
       "data": {
-        "viaRoute": "/ourservices",
+        "viaRoute": "/",
         "trigger": {
-          "element": "<Button className=\"bg-black text-white rounded-lg shadow-button-shadow\" href=\"/ourservices\">\r\n                    Book Now\r\n                    </Button>",
-          "line": 28,
-          "endLine": 30,
-          "column": 20,
-          "endColumn": 29,
+          "element": "<a href=\"/\" className=\"text-2xl font-bold text-black\">\r\n          <img src=\"src\\components\\ui\\yellowFill.png\" alt=\"Logo\" className=\"h-10\" /> \r\n        </a>",
+          "line": 17,
+          "endLine": 19,
+          "column": 8,
+          "endColumn": 12,
           "sourceFile": "src\\screens\\Frame\\sections\\NavbarSubsection\\NavbarSubsection.tsx"
         }
       }
     },
     {
-      "id": "src\\screens\\Frame\\sections\\NavbarSubsection\\NavbarSubsection.tsx:27:16-to-src\\screens\\Frame\\sections\\OurServicesSubsection\\OurServicesSubsection.tsx",
+      "id": "src\\screens\\Frame\\sections\\NavbarSubsection\\NavbarSubsection.tsx:30:16-to-src\\screens\\Frame\\sections\\OurServicesSubsection\\OurServicesSubsection.tsx",
       "source": "src\\screens\\Frame\\sections\\LandingPageSubsection\\LandingPageSubsection.tsx",
       "target": "src\\screens\\Frame\\sections\\OurServicesSubsection\\OurServicesSubsection.tsx",
       "data": {
         "viaRoute": "/ourservices",
         "trigger": {
-          "element": "<a href = \"/ourservices\">\r\n                    <Button className=\"bg-black text-white rounded-lg shadow-button-shadow\" href=\"/ourservices\">\r\n                    Book Now\r\n                    </Button>\r\n                </a>",
-          "line": 27,
-          "endLine": 31,
+          "element": "<a href = \"/ourservices\">\r\n                    <Button className=\"bg-black text-white rounded-lg shadow-button-shadow\">\r\n                    Book Now\r\n                    </Button>\r\n                </a>",
+          "line": 30,
+          "endLine": 34,
           "column": 16,
           "endColumn": 20,
           "sourceFile": "src\\screens\\Frame\\sections\\NavbarSubsection\\NavbarSubsection.tsx"
@@ -112,49 +176,33 @@
       }
     },
     {
-      "id": "src\\screens\\Frame\\sections\\NavbarSubsection\\NavbarSubsection.tsx:28:20-to-src\\screens\\Frame\\sections\\OurServicesSubsection\\OurServicesSubsection.tsx",
+      "id": "src\\screens\\Frame\\sections\\NavbarSubsection\\NavbarSubsection.tsx:17:8-to-src\\screens\\Frame\\sections\\LandingPageSubsection\\LandingPageSubsection.tsx",
       "source": "src\\screens\\Frame\\sections\\LandingPageSubsection\\LandingPageSubsection.tsx",
-      "target": "src\\screens\\Frame\\sections\\OurServicesSubsection\\OurServicesSubsection.tsx",
+      "target": "src\\screens\\Frame\\sections\\LandingPageSubsection\\LandingPageSubsection.tsx",
       "data": {
-        "viaRoute": "/ourservices",
+        "viaRoute": "/",
         "trigger": {
-          "element": "<Button className=\"bg-black text-white rounded-lg shadow-button-shadow\" href=\"/ourservices\">\r\n                    Book Now\r\n                    </Button>",
-          "line": 28,
-          "endLine": 30,
-          "column": 20,
-          "endColumn": 29,
+          "element": "<a href=\"/\" className=\"text-2xl font-bold text-black\">\r\n          <img src=\"src\\components\\ui\\yellowFill.png\" alt=\"Logo\" className=\"h-10\" /> \r\n        </a>",
+          "line": 17,
+          "endLine": 19,
+          "column": 8,
+          "endColumn": 12,
           "sourceFile": "src\\screens\\Frame\\sections\\NavbarSubsection\\NavbarSubsection.tsx"
         }
       }
     },
     {
-      "id": "src\\screens\\Frame\\sections\\NavbarSubsection\\NavbarSubsection.tsx:27:16-to-src\\screens\\Frame\\sections\\OurServicesSubsection\\OurServicesSubsection.tsx",
+      "id": "src\\screens\\Frame\\sections\\NavbarSubsection\\NavbarSubsection.tsx:30:16-to-src\\screens\\Frame\\sections\\OurServicesSubsection\\OurServicesSubsection.tsx",
       "source": "src\\screens\\Frame\\sections\\LandingPageSubsection\\LandingPageSubsection.tsx",
       "target": "src\\screens\\Frame\\sections\\OurServicesSubsection\\OurServicesSubsection.tsx",
       "data": {
         "viaRoute": "/ourservices",
         "trigger": {
-          "element": "<a href = \"/ourservices\">\r\n                    <Button className=\"bg-black text-white rounded-lg shadow-button-shadow\" href=\"/ourservices\">\r\n                    Book Now\r\n                    </Button>\r\n                </a>",
-          "line": 27,
-          "endLine": 31,
+          "element": "<a href = \"/ourservices\">\r\n                    <Button className=\"bg-black text-white rounded-lg shadow-button-shadow\">\r\n                    Book Now\r\n                    </Button>\r\n                </a>",
+          "line": 30,
+          "endLine": 34,
           "column": 16,
           "endColumn": 20,
-          "sourceFile": "src\\screens\\Frame\\sections\\NavbarSubsection\\NavbarSubsection.tsx"
-        }
-      }
-    },
-    {
-      "id": "src\\screens\\Frame\\sections\\NavbarSubsection\\NavbarSubsection.tsx:28:20-to-src\\screens\\Frame\\sections\\OurServicesSubsection\\OurServicesSubsection.tsx",
-      "source": "src\\screens\\Frame\\sections\\LandingPageSubsection\\LandingPageSubsection.tsx",
-      "target": "src\\screens\\Frame\\sections\\OurServicesSubsection\\OurServicesSubsection.tsx",
-      "data": {
-        "viaRoute": "/ourservices",
-        "trigger": {
-          "element": "<Button className=\"bg-black text-white rounded-lg shadow-button-shadow\" href=\"/ourservices\">\r\n                    Book Now\r\n                    </Button>",
-          "line": 28,
-          "endLine": 30,
-          "column": 20,
-          "endColumn": 29,
           "sourceFile": "src\\screens\\Frame\\sections\\NavbarSubsection\\NavbarSubsection.tsx"
         }
       }

@@ -1,15 +1,13 @@
 import React from "react";
-import { Button } from "../../../../components/ui/button";
 import { Card, CardContent } from "../../../../components/ui/card";
-import { Input } from "../../../../components/ui/input";
 import {
   Table,
   TableBody,
   TableCell,
   TableRow,
 } from "../../../../components/ui/table";
-import { Textarea } from "../../../../components/ui/textarea";
 import { NavbarSubsection } from "../NavbarSubsection";
+import { ContactForm } from "./contactForm";
 
 export const OurServicesSubsection = (): JSX.Element => {
   // Course data organized by category
@@ -356,56 +354,7 @@ export const OurServicesSubsection = (): JSX.Element => {
         </div>
 
         {/* Contact Form */}
-        <Card className="w-full max-w-[872px] mb-12 bg-neutral-100 border border-solid border-[#d9d9d9] rounded-lg">
-          <CardContent className="p-6">
-            <div className="text-center mb-8">
-              <h2 className="font-['Inter',Helvetica] font-bold text-black text-[25px] leading-[25px]">
-                Interested in our courses, or don&apos;t see one you want to
-                learn about?
-                <br />
-                <br />
-                Shoot us an email and we&apos;ll reach out soon!
-              </h2>
-            </div>
-
-            <form className="space-y-6">
-              <div className="space-y-2">
-                <label className="font-body-base font-[number:var(--body-base-font-weight)] text-[#1e1e1e] text-[length:var(--body-base-font-size)] tracking-[var(--body-base-letter-spacing)] leading-[var(--body-base-line-height)] [font-style:var(--body-base-font-style)]">
-                  Name
-                </label>
-                <Input className="bg-white border border-solid border-[#d9d9d9] rounded-lg px-4 py-3" />
-              </div>
-
-              <div className="space-y-2">
-                <label className="font-body-base font-[number:var(--body-base-font-weight)] text-[#1e1e1e] text-[length:var(--body-base-font-size)] tracking-[var(--body-base-letter-spacing)] leading-[var(--body-base-line-height)] [font-style:var(--body-base-font-style)]">
-                  Email
-                </label>
-                <Input className="bg-white border border-solid border-[#d9d9d9] rounded-lg px-4 py-3" />
-              </div>
-
-              <div className="space-y-2">
-                <label className="font-body-base font-[number:var(--body-base-font-weight)] text-[#1e1e1e] text-[length:var(--body-base-font-size)] tracking-[var(--body-base-letter-spacing)] leading-[var(--body-base-line-height)] [font-style:var(--body-base-font-style)]">
-                  What would you like tutoring in?
-                </label>
-                <Input className="bg-white border border-solid border-[#d9d9d9] rounded-lg px-4 py-3" />
-              </div>
-
-              <div className="space-y-2">
-                <label className="font-body-base font-[number:var(--body-base-font-weight)] text-[#1e1e1e] text-[length:var(--body-base-font-size)] tracking-[var(--body-base-letter-spacing)] leading-[var(--body-base-line-height)] [font-style:var(--body-base-font-style)]">
-                  Any details you want to tell us about the student, scheduling,
-                  etc.? Drop &apos;em here!
-                </label>
-                <Textarea className="min-h-20 bg-white border border-solid border-[#d9d9d9] rounded-lg px-4 py-[5px]" />
-              </div>
-
-              <div className="flex justify-center">
-                <Button className="w-[155px] bg-[#2c2c2c] text-neutral-100 rounded-lg border border-solid">
-                  Submit
-                </Button>
-              </div>
-            </form>
-          </CardContent>
-        </Card>
+        <ContactForm/>
       </div>
     </section>
   );
