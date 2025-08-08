@@ -5,14 +5,15 @@ import { defineConfig } from "vite";
 
 // https://vite.dev/config/
 export default defineConfig(({ mode }) => ({
-  plugins: [react(), mode === "development" && screenGraphPlugin()],
+  plugins: [
+    react(),
+    ...(mode === "development" ? [screenGraphPlugin()] : []),
+  ],
   publicDir: "./static",
-  base: "./",
+  base: "/movinOnUp/", // <-- must start and end with a slash for GitHub Pages
   css: {
     postcss: {
       plugins: [tailwind()],
     },
   },
 }));
-
-
