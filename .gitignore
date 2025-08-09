@@ -22,3 +22,10 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Private information and keys
+.env*
+*-env.*
+
+# Screen graph
+.screen-graph.json
