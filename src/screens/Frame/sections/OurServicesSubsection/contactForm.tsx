@@ -23,7 +23,6 @@ export const ContactForm = (): JSX.Element => {
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
 
-    // Validate all fields are filled
     if (!form.name || !form.email || !form.subject || !form.message) {
       setError(true);
       return;

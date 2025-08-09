@@ -1,13 +1,12 @@
-import React from "react";
-import { Card, CardContent } from "../../../../components/ui/card";
+import { Card, CardContent } from "../../../../assets/card";
 import {
   Table,
   TableBody,
   TableCell,
   TableRow,
-} from "../../../../components/ui/table";
+} from "../../../../assets/table";
 import { NavbarSubsection } from "../NavbarSubsection";
-import { ContactForm } from "./contactForm";
+import { ContactForm } from "./ContactForm";
 
 export const OurServicesSubsection = (): JSX.Element => {
   // Course data organized by category
@@ -81,24 +80,6 @@ export const OurServicesSubsection = (): JSX.Element => {
     "Personal Finance",
     "Chess",
     "Scratch Development",
-  ];
-
-  // Package data
-  const packages = [
-    {
-      name: "Foundation",
-      description: "Small Group Classes",
-    },
-    {
-      name: "Pro",
-      description:
-        "Homework feedback, personalized grading, one on one coaching with tutor during office hour, in addition to foundation package offerings",
-    },
-    {
-      name: "Out Of This World",
-      description:
-        "24/7 access to AI agent that provides homework help, practice questions, and general academic support, in addition to pro and foundation package offerings",
-    },
   ];
 
   // Navigation items

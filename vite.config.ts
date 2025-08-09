@@ -7,10 +7,13 @@ import { defineConfig } from "vite";
 export default defineConfig(({ mode }) => ({
   plugins: [
     react(),
-    ...(mode === "development" ? [screenGraphPlugin()] : []),
-  ],
-  publicDir: "./static",
-  base: "/movinOnUp/", // <-- must start and end with a slash for GitHub Pages
+    mode === "development" && screenGraphPlugin(),
+  ].filter(Boolean), 
+
+  publicDir: "public",
+
+  base: mode === "development" ? "/" : "/",
+
   css: {
     postcss: {
       plugins: [tailwind()],
