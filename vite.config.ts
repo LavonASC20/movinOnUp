@@ -12,7 +12,7 @@ export default defineConfig(({ mode }) => ({
 
   publicDir: "public",
 
-  base: mode === "development" ? "/" : "/movinOnUp/",
+  base: mode === "development" ? "./" : "./movinOnUp/",
 
   css: {
     postcss: {
