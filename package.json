@@ -4,7 +4,7 @@
   "type": "module",
   "name": "movin-on-up",
   "description": "MFEs for movin on up",
-  "homepage": "https://LavonASC20.github.io/movinOnUp",
+  "homepage": "https://LavonASC20.github.io/movinOnUp/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
