@@ -16,7 +16,7 @@ export default defineConfig(({ mode }) => ({
     outDir: "docs",
   },
 
-  base: "/movinOnUp/",
+  base: "./",
 
   css: {
     postcss: {
