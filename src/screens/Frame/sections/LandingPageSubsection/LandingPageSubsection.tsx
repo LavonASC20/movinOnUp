@@ -99,7 +99,7 @@ export const LandingPageSubsection = (): JSX.Element => {
             </div>
 
             <div className="mt-12">
-              <a href = "/ourservices">
+              <a href = "/movinOnUp/ourservices">
                 <Button className="bg-[#a18eff] rounded-lg shadow-button-shadow text-white text-2xl px-6 py-3 font-medium font-['Inter',Helvetica]">
                   Our Offerings
                 </Button>
@@ -136,7 +136,7 @@ export const LandingPageSubsection = (): JSX.Element => {
             </div>
 
             <div className="mt-12 flex justify-center">
-              <a href = "/ourmission">
+              <a href = "/movinOnUp/ourmission">
                 <Button className="bg-[#a18eff] rounded-lg shadow-button-shadow text-white text-2xl px-6 py-3 font-medium font-['Inter',Helvetica]">
                   Find Out More
                 </Button>
@@ -195,7 +195,7 @@ export const LandingPageSubsection = (): JSX.Element => {
         </div>
 
         <div className="mt-12 flex justify-center">
-          <a href = "/ourteam">
+          <a href = "/movinOnUp/ourteam">
             <Button className="bg-[#a18eff] rounded-lg shadow-button-shadow text-white text-2xl px-6 py-3 font-medium font-['Inter',Helvetica]">
               Full Tutor Profiles
             </Button>
