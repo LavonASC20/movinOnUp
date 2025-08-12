@@ -1,3 +1,4 @@
-<!-- <script>
-  location.replace('/movinOnUp/');
-</script> -->
+<script>
+  var path = location.pathname.replace(/^\/movinOnUp/, "");
+  location.replace("/movinOnUp/#" + path + location.search + location.hash);
+</script>
