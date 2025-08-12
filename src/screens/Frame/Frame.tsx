@@ -17,11 +17,11 @@ export const Frame = (): JSX.Element => {
     >
         <Router>
             <Routes>
-                <Route path = '/' element = {<LandingPageSubsection />} />
-                <Route path = '/ourmission' element = {<OurMissionSubsection />} />
-                <Route path = '/ourservices' element = {<OurServicesSubsection />}/>
-                <Route path = '/ourteam' element = {<OurTeamSubsection />}/>
-                <Route path = '*' element = {<Navigate to = '/' />} />
+                <Route path = '/movinOnUp/' element = {<LandingPageSubsection />} />
+                <Route path = '/movinOnUp/ourmission' element = {<OurMissionSubsection />} />
+                <Route path = '/movinOnUp/ourservices' element = {<OurServicesSubsection />}/>
+                <Route path = '/movinOnUp/ourteam' element = {<OurTeamSubsection />}/>
+                <Route path = '*' element = {<Navigate to = '/movinOnUp/' />} />
             </Routes>
         </Router>
     </div>
