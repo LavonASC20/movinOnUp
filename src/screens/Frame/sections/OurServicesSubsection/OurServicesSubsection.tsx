@@ -6,7 +6,7 @@ import {
   TableRow,
 } from "../../../../assets/table";
 import { NavbarSubsection } from "../NavbarSubsection";
-import { ContactForm } from "./ContactForm";
+import { ContactForm } from "./contactForm";
 
 export const OurServicesSubsection = (): JSX.Element => {
   // Course data organized by category
