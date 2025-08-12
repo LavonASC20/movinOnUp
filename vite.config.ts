@@ -11,7 +11,10 @@ export default defineConfig(({ mode }) => ({
   ].filter(Boolean), 
 
   publicDir: "public",
-  outDir: "dist",
+
+  build: {
+    outDir: "docs",
+  },
 
   base: mode === "development" ? "/" : "/movinOnUp/",
 
