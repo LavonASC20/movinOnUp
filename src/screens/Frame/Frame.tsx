@@ -15,13 +15,13 @@ export const Frame = (): JSX.Element => {
       className="bg-transparent flex flex-col items-center w-full"
       data-model-id="320:401"
     >
-        <Router>
+        <Router basename="/movinOnUp">
             <Routes>
-                <Route path = '/movinOnUp/' element = {<LandingPageSubsection />} />
-                <Route path = '/movinOnUp/ourmission' element = {<OurMissionSubsection />} />
-                <Route path = '/movinOnUp/ourservices' element = {<OurServicesSubsection />}/>
-                <Route path = '/movinOnUp/ourteam' element = {<OurTeamSubsection />}/>
-                <Route path = '*' element = {<Navigate to = '/movinOnUp/' />} />
+                <Route path = '/' element = {<LandingPageSubsection />} />
+                <Route path = '/ourmission' element = {<OurMissionSubsection />} />
+                <Route path = '/ourservices' element = {<OurServicesSubsection />}/>
+                <Route path = '/ourteam' element = {<OurTeamSubsection />}/>
+                <Route path = '*' element = {<Navigate to = '/' />} />
             </Routes>
         </Router>
     </div>
