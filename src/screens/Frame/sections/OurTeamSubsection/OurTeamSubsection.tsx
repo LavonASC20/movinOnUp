@@ -8,31 +8,31 @@ export const OurTeamSubsection = (): JSX.Element => {
       id: 1,
       name: "Lavon Sykes",
       bio: "Lavon is inspired by the surge of AI and machine learning as an agent of exploration and knowledge creation. He has an A.B. in Applied Mathematics in Computer Science and Economics from Harvard University, and an S.M. in Applied Mathematics in Statistics from Harvard University, where he was a member of research groups using AI to power data-driven solutions in climate models for economic outcomes, scene graph generation using graph attention networks, and LLM problem solving capability. He loves teaching because seeing someone excited about learning a difficult concept feels like a win for both him and the student. He's been teaching and tutoring for the past 6 years and loves working with various levels of education!",
-      src: "/lavon.png"
+      src: "./lavon.png"
     },
     {
       id: 2,
       name: "Maame Forson",
       bio: "Maame has a BA from Harvard University where she studied Psychology on the Cognitive Neuroscience Track and Social Anthropology. She conducted neuroscience research about the change in the rate of brain aging in individuals who live in privileged environments vs those who live in environmentally deprived areas. Throughout college, she was a part of multiple public service, education, and cultural initiatives, melding together her multiple passions. She has been tutoring for the past 5 years and working with kids for the past 8, and loves to teach because she believes education is a necessity and it's really rewarding to see students progress through their academic and non-academic goals. Also, she appreciates the flexibiity and variety teaching affords because we are all students!",
-      src: "/maame.png"
+      src: "./maame.png"
     },
     {
       id: 3,
       name: "Barisere Tuka",
       bio: "Barisere is passionate about finding ways to make education more accessible. She has a B.A. in History and Literature and, throughout college, has consistently worked with kids on volunteering and tutoring programs. Through working with children, the need to meet them where they were at further affirmed her passion.",
-      src: "/bari.png"
+      src: "./bari.png"
     },
     {
       id: 4,
       name: "Hannah Munzberg",
       bio: "Hannah has many interests that culminate in the understanding and uplifting of communities. She graduated from Harvard University with a bachelor's degree in History of Art and Architecture, architectural design focused, with a secondary in Global Health and Health Policy. This achievement, a great deal for someone from her educationally disadvantaged area, is credited to her mentors who brought her into teaching and learning. Due to her having been in such a place, Hannah cares deeply about encouraging youth and curating a multifaceted support system that meets their needs.",
-      src: "/hannah.png"
+      src: "./hannah.png"
     },
     {
       id: 5,
       name: "Alissandra Perez",
       bio: "Ailyn Alissandra holds a B.A. in Psychology with a focus on Cognitive Neuroscience from Harvard University, where she discovered her passion for research and education. Her recent work has explored how structural racism affects the mental health of Latine and Black adolescents.  She began tutoring and offering college advice during her freshman year and later became a full-time online teacher during the summer. Since then, she has dedicated herself to community service—working with marginalized youth and grounding her approach in restorative justice. She encourages all her students to be active participants in their communities.She's passionate about breaking down complex psychology and history concepts into fun, digestible lessons and helping students make meaningful connections. Alissandra believes education is a vehicle to success and is committed to helping each student find the key that unlocks their journey to wherever their heart leads them.",
-      src: "/ailyn.png"
+      src: "./ailyn.png"
     },
   ];
 

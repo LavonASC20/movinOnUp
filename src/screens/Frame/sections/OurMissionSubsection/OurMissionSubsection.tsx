@@ -25,7 +25,7 @@ export const OurMissionSubsection = (): JSX.Element => {
           <img
             className="w-full h-full object-cover"
             alt="What We Do Image"
-            src="/ourmission1.png"
+            src="./ourmission1.png"
           />
         </div>
 
@@ -50,7 +50,7 @@ export const OurMissionSubsection = (): JSX.Element => {
           <img
             className="w-full h-full object-cover"
             alt="Long Term Goals Image"
-            src="/ourmission2.png"
+            src="./ourmission2.png"
           />
         </div>
       </div>

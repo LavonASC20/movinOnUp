@@ -6,23 +6,23 @@ export const LandingPageSubsection = (): JSX.Element => {
   const teamMembers = [
     {
       name: "Lavon Sykes",
-      imageSource: "/lavon.png",
+      imageSource: "./lavon.png",
     },
     {
       name: "Maame Forson",
-      imageSource: "/maame.png",
+      imageSource: "./maame.png",
     },
     {
       name: "Barisere Tuka",
-      imageSource: "/bari.png",
+      imageSource: "./bari.png",
     },
     {
       name: "Hannah Munzberg",
-      imageSource: "/hannah.png",
+      imageSource: "./hannah.png",
     },
     {
       name: "Alissandra Perez",
-      imageSource: "/ailyn.png",
+      imageSource: "./ailyn.png",
     },
   ];
 
@@ -63,7 +63,7 @@ export const LandingPageSubsection = (): JSX.Element => {
         </div>
 
         <div className="mt-8 w-full max-w-[1000px]">
-          <img src="/usLetter.png" className="w-full h-auto object-cover" alt="Us letter image" />
+          <img src="./usLetter.png" className="w-full h-auto object-cover" alt="Us letter image" />
         </div>
       </div>
 
@@ -109,7 +109,7 @@ export const LandingPageSubsection = (): JSX.Element => {
 
           <div className="w-full md:w-1/2">
             <div className="rounded-[8px_0px_0px_8px] overflow-hidden">
-              <img className="w-full h-auto object-cover" src="/landingpage1.png" alt="Our Mission image" />
+              <img className="w-full h-auto object-cover" src="./landingpage1.png" alt="Our Mission image" />
             </div>
           </div>
         </div>
@@ -123,7 +123,7 @@ export const LandingPageSubsection = (): JSX.Element => {
 
         <div className="flex flex-col md:flex-row gap-8 items-center">
           <div className="w-full md:w-1/2">
-            <img className="w-full h-auto object-cover" src = "/landingpage2.png" alt="Our goals image" />
+            <img className="w-full h-auto object-cover" src = "./landingpage2.png" alt="Our goals image" />
           </div>
 
           <div className="w-full md:w-1/2">
