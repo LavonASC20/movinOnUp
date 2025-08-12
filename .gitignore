@@ -23,6 +23,10 @@ dist
 *.sw?
 
 # Private information and keys
+.env
+.env.local
+.env.development
+.env.test
 .env*
 *-env.*
 
