@@ -1,5 +1,5 @@
 import {
-    BrowserRouter as Router,
+    HashRouter as Router, // <-- Change here
     Routes,
     Route,
     Navigate
@@ -15,13 +15,13 @@ export const Frame = (): JSX.Element => {
       className="bg-transparent flex flex-col items-center w-full"
       data-model-id="320:401"
     >
-        <Router basename="/movinOnUp">
+        <Router>
             <Routes>
-                <Route path = '/' element = {<LandingPageSubsection />} />
-                <Route path = '/ourmission' element = {<OurMissionSubsection />} />
-                <Route path = '/ourservices' element = {<OurServicesSubsection />}/>
-                <Route path = '/ourteam' element = {<OurTeamSubsection />}/>
-                <Route path = '*' element = {<Navigate to = '/' />} />
+                <Route path='/' element={<LandingPageSubsection />} />
+                <Route path='/ourmission' element={<OurMissionSubsection />} />
+                <Route path='/ourservices' element={<OurServicesSubsection />} />
+                <Route path='/ourteam' element={<OurTeamSubsection />} />
+                <Route path='*' element={<Navigate to='/' />} />
             </Routes>
         </Router>
     </div>
