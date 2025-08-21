@@ -75,7 +75,7 @@ export const LandingPageSubsection = (): JSX.Element => {
           <div className="w-full md:w-1/2">
             <div className="text-[22px] text-black font-['Lexend',Helvetica] leading-[33px]">
               <span className="font-medium">
-                Worried about irresponsible AI use leading to lower on-demand performance?&nbsp;&nbsp;Our platform solves through our modern learning approach, combining{" "}
+                Worried about irresponsible AI use leading to lower on-demand performance?&nbsp;&nbsp;Our platform solves this through our modern learning approach, combining{" "}
               </span>
               <span className="font-bold">live tutoring</span>
               <span className="font-medium">&nbsp;</span>
@@ -148,7 +148,7 @@ export const LandingPageSubsection = (): JSX.Element => {
               <CardContent className="p-0">
                 <div className="rounded-lg overflow-hidden">
                   <img
-                    className="w-full h-[405px] object-cover"
+                    className="h-full w-auto object-cover"
                     alt={member.name}
                     src={member.imageSource}
                   />
@@ -169,7 +169,7 @@ export const LandingPageSubsection = (): JSX.Element => {
               <CardContent className="p-0">
                 <div className="rounded-lg overflow-hidden">
                   <img
-                    className="w-full h-[405px] object-cover"
+                    className="h-full w-auto object-cover"
                     alt={member.name}
                     src={member.imageSource}
                   />
