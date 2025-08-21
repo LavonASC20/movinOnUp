@@ -28,12 +28,6 @@ export const OurTeamSubsection = (): JSX.Element => {
       bio: "Hannah has many interests that culminate in the understanding and uplifting of communities. She graduated from Harvard University with a bachelor's degree in History of Art and Architecture, architectural design focused, with a secondary in Global Health and Health Policy. This achievement, a great deal for someone from her educationally disadvantaged area, is credited to her mentors who brought her into teaching and learning. Due to her having been in such a place, Hannah cares deeply about encouraging youth and curating a multifaceted support system that meets their needs.",
       src: "/movinOnUp/hannah.png"
     },
-    {
-      id: 5,
-      name: "Alissandra Perez",
-      bio: "Ailyn Alissandra holds a B.A. in Psychology with a focus on Cognitive Neuroscience from Harvard University, where she discovered her passion for research and education. Her recent work has explored how structural racism affects the mental health of Latine and Black adolescents.  She began tutoring and offering college advice during her freshman year and later became a full-time online teacher during the summer. Since then, she has dedicated herself to community service—working with marginalized youth and grounding her approach in restorative justice. She encourages all her students to be active participants in their communities.She's passionate about breaking down complex psychology and history concepts into fun, digestible lessons and helping students make meaningful connections. Alissandra believes education is a vehicle to success and is committed to helping each student find the key that unlocks their journey to wherever their heart leads them.",
-      src: "/movinOnUp/ailyn.png"
-    },
   ];
 
   return (
@@ -49,13 +43,9 @@ export const OurTeamSubsection = (): JSX.Element => {
             Our Team
           </h1>
           <p className="text-center font-['Lato',Helvetica] font-light italic text-[21px] tracking-[-0.42px] leading-normal max-w-4xl mx-auto">
-            Get to know us, and see why we&apos;re the perfect fit for you! Our
-            tutors are passionate, accomplished scholars from top
-            universities&nbsp;&nbsp;studying, researching, and working in a vast
-            variety of fields. <br />
-            We all have extensive experience in and out of the classroom working
-            with children as teachers, tutors, program coordinators, and
-            mentors.
+            Get to know our tutors, and see why we&apos;re the perfect fit for you! <br />
+            All our tutors have extensive experience in and out of the classroom. They work
+            with young people as teachers, tutors, program coordinators, and mentors.
           </p>
         </div>
 
