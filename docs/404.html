@@ -1,6 +1,4 @@
 <script>
-  // Get the path after /movinOnUp
   var path = location.pathname.replace(/^\/movinOnUp/, "");
-  // Redirect to index.html with the original path as a hash
   location.replace("/movinOnUp/#" + path + location.search + location.hash);
 </script>
