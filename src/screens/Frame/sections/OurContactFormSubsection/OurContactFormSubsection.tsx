@@ -58,7 +58,7 @@ export const OurContactFormSubsection = (): JSX.Element => {
   };
 
   return (
-    <section className="w-full bg-white pt-[125px]">
+    <section className="w-full bg-white pt-[125px] pb-[125px]">
       <NavbarSubsection />
       <div className="max-w-2xl mx-auto p-6 border rounded-xl shadow-lg">
         <h2 className="text-2xl font-semibold mb-4 text-center">Contact Us</h2>
