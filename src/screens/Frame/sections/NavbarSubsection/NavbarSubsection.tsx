@@ -8,7 +8,7 @@ export const NavbarSubsection = (): JSX.Element => {
         { label: "Our Team", href: "/movinOnUp/ourteam" },
     ];
   return (
-      <header className="sticky top-0 z-50 w-full h-[100px] bg-[#d2e7ff] shadow">
+      <header className="fixed top-0 z-50 w-full h-[100px] bg-[#d2e7ff] shadow">
         <div 
           className="container mx-auto flex items-center justify-between"
           style={{ height: "15vh" }}
