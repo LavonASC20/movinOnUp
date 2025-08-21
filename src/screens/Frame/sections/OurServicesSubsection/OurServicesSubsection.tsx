@@ -122,46 +122,43 @@ export const OurServicesSubsection = (): JSX.Element => {
 
         {/* Course cards */}
         <div className = "grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
-          <div>
-          <ExpandableCard 
-            title = "Math"
-            collapsedContent = "From counting to partial derivatives, we've got you covered!"
-            expandedContent = {courseCategories.find(category => category.name === "Math")?.courses.join("\n") || ""}
-          />
+          {/* First column of three cards */}
+          <div className = "flex flex-col gap-8">
+            <ExpandableCard 
+              title = "Math"
+              collapsedContent = "From counting to partial derivatives, we've got you covered!"
+              expandedContent = {courseCategories.find(category => category.name === "Math")?.courses.join("\n") || ""}
+            />
+            <ExpandableCard 
+              title = "Science"
+              collapsedContent = "Learn about tiny microbes, chemical reactions, or even planetary motion!"
+              expandedContent = {courseCategories.find(category => category.name === "Science")?.courses.join("\n") || ""}
+            />
+            <ExpandableCard 
+              title = "Humanities"
+              collapsedContent = "Venture through various historical periods and literary analyses with us!"
+              expandedContent = {courseCategories.find(category => category.name === "Humanities")?.courses.join("\n") || ""}
+            />
           </div>
-          <div>
-          <ExpandableCard 
-            title = "Science"
-            collapsedContent = "Learn about tiny microbes, chemical reactions, or even planetary motion!"
-            expandedContent = {courseCategories.find(category => category.name === "Science")?.courses.join("\n") || ""}
-          />
-          </div>
-        </div>
 
-        <div className = "grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
-          <ExpandableCard 
-            title = "Humanities"
-            collapsedContent = "Venture through various historical periods and literary analyses with us!"
-            expandedContent = {courseCategories.find(category => category.name === "Humanities")?.courses.join("\n") || ""}
-          />
-          <ExpandableCard 
-            title = "Test & Admissions Prep"
-            collapsedContent = "Testing and admissions got you stressed? Let us guide you!"
-            expandedContent = {courseCategories.find(category => category.name === "Test & Admissions Prep")?.courses.join("\n") || ""}
-          />
-        </div>
-
-        <div className = "grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
-          <ExpandableCard 
-            title = "Niche Courses"
-            collapsedContent = "Want to flex new skills on your friends and applications? Check out our niche courses!"
-            expandedContent = {courseCategories.find(category => category.name === "Niche Courses")?.courses.join("\n") || ""}
-          />
-          <ExpandableCard 
-            title = "Packages"
-            collapsedContent = "With our packages, get the best value for your learning journey!"
-            expandedContent = {packageCategories.find(pack => pack.name === "Packages")?.packages.join("\n") || ""}
-          />
+          {/* Second column of three cards */}
+          <div className = "flex flex-col gap-8">
+            <ExpandableCard 
+              title = "Test & Admissions Prep"
+              collapsedContent = "Testing and admissions got you stressed? Let us guide you!"
+              expandedContent = {courseCategories.find(category => category.name === "Test & Admissions Prep")?.courses.join("\n") || ""}
+            />
+            <ExpandableCard 
+              title = "Niche Courses"
+              collapsedContent = "Want to flex new skills on your friends and applications? Check out our niche courses!"
+              expandedContent = {courseCategories.find(category => category.name === "Niche Courses")?.courses.join("\n") || ""}
+            />
+            <ExpandableCard 
+              title = "Packages"
+              collapsedContent = "With our packages, get the best value for your learning journey!"
+              expandedContent = {packageCategories.find(pack => pack.name === "Packages")?.packages.join("\n") || ""}
+            />
+          </div>  
         </div>
         
         {/* Contact Form */}
