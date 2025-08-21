@@ -71,7 +71,7 @@ export const LandingPageSubsection = (): JSX.Element => {
           <div className="w-full md:w-1/2">
             <div className="text-[22px] text-black font-['Lexend',Helvetica] leading-[33px]">
               <span className="font-medium">
-                Worried about irresponsible AI use leading to lower on-demand performance?.&nbsp;&nbsp;Our platform defines modern learning by combining{" "}
+                Worried about irresponsible AI use leading to lower on-demand performance?&nbsp;&nbsp;Our platform solves through our modern learning approach, combining{" "}
               </span>
               <span className="font-bold">live tutoring</span>
               <span className="font-medium">&nbsp;</span>
