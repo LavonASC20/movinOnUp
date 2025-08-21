@@ -31,7 +31,7 @@ export const LandingPageSubsection = (): JSX.Element => {
   ];
 
   return (
-    <section className="w-full bg-white overflow-y-auto">
+    <section className="w-full bg-white overflow-y-auto pt-[100px]">
       {/* Navigation */}
       <NavbarSubsection />
 

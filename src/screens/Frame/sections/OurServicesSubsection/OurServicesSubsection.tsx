@@ -84,7 +84,7 @@ export const OurServicesSubsection = (): JSX.Element => {
 
   // Navigation items
   return (
-    <section className="w-full bg-white">
+    <section className="w-full bg-white pt-[100px]">
       <NavbarSubsection />
 
       <div className="container flex flex-col items-center py-16">

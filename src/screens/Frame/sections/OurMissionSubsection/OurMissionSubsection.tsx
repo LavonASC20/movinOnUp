@@ -2,7 +2,7 @@ import { NavbarSubsection } from "../NavbarSubsection";
 
 export const OurMissionSubsection = (): JSX.Element => {
   return (
-    <section className="w-full bg-white">
+    <section className="w-full bg-white pt-[100px]">
       <NavbarSubsection />
 
       <div className="container mx-auto px-4 py-12 flex flex-col items-center">

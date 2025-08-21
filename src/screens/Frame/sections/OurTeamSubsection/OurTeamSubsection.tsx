@@ -37,7 +37,7 @@ export const OurTeamSubsection = (): JSX.Element => {
   ];
 
   return (
-    <section className="w-full bg-white">
+    <section className="w-full bg-white pt-[100px]">
       {/* Navigation Bar */}
       <NavbarSubsection />
 
