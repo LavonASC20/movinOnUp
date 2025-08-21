@@ -122,16 +122,20 @@ export const OurServicesSubsection = (): JSX.Element => {
 
         {/* Course cards */}
         <div className = "grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
+          <div>
           <ExpandableCard 
             title = "Math"
             collapsedContent = "From counting to partial derivatives, we've got you covered!"
             expandedContent = {courseCategories.find(category => category.name === "Math")?.courses.join("\n") || ""}
           />
+          </div>
+          <div>
           <ExpandableCard 
             title = "Science"
             collapsedContent = "Learn about tiny microbes, chemical reactions, or even planetary motion!"
             expandedContent = {courseCategories.find(category => category.name === "Science")?.courses.join("\n") || ""}
           />
+          </div>
         </div>
 
         <div className = "grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
