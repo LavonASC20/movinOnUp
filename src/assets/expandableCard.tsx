@@ -1,11 +1,11 @@
 "use client"
 
-import { useState } from "react"
+import React, { useState } from "react"
 
 interface ExpandableCardProps {
   title: string
-  collapsedContent: string
-  expandedContent: string
+  collapsedContent: React.ReactNode
+  expandedContent: React.ReactNode
 }
 
 function ExpandableCard({ title, collapsedContent, expandedContent }: ExpandableCardProps) {

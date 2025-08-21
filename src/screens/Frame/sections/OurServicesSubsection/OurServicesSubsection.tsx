@@ -1,11 +1,4 @@
-import { Card, CardContent } from "../../../../assets/card";
 import ExpandableCard from "../../../../assets/expandableCard";
-import {
-  Table,
-  TableBody,
-  TableCell,
-  TableRow,
-} from "../../../../assets/table";
 import { NavbarSubsection } from "../NavbarSubsection";
 import { ContactForm } from "./contactForm";
 
@@ -92,9 +85,9 @@ export const OurServicesSubsection = (): JSX.Element => {
     {
       name: "Packages",
       packages: [
-        "Foundation: Sessions, recordings, and interactive, in-session practice exercises.",
-        "Pro: Homework, graded feedback, personalized comments, and one-on-one coaching with your tutor during office hour (in addition to foundation package offerings).",
-        "Out Of This World: 24/7 access to our AI agent that provides homework help, personalized practice exercises and full-length exams, along with general academic support (in addition to pro and foundation package offerings).",
+        <> <strong>Foundation</strong>: Sessions, recordings, and interactive, in-session practice exercises. </>,
+        <> <strong>Pro</strong>: Homework, graded feedback, personalized comments, and one-on-one coaching with your tutor during office hour (in addition to foundation package offerings). </>,
+        <> <strong>Out Of This World</strong>: 24/7 access to our AI agent that provides homework help, personalized practice exercises and full-length exams, along with general academic support (in addition to pro and foundation package offerings). </>,
       ],
     }
   ]
@@ -127,17 +120,35 @@ export const OurServicesSubsection = (): JSX.Element => {
             <ExpandableCard 
               title = "Math"
               collapsedContent = "From counting to partial derivatives, we've got you covered!"
-              expandedContent = {courseCategories.find(category => category.name === "Math")?.courses.join("\n") || ""}
+              expandedContent = {
+                <ul className =  "list-disc pl-5 space-y-2">
+                  {courseCategories.find(category => category.name === "Math")?.courses.map((course, index) => (
+                    <li key={index}>{course}</li>
+                  ))}
+                </ul>
+              }
             />
             <ExpandableCard 
               title = "Science"
               collapsedContent = "Learn about tiny microbes, chemical reactions, or even planetary motion!"
-              expandedContent = {courseCategories.find(category => category.name === "Science")?.courses.join("\n") || ""}
+              expandedContent = {
+                <ul className =  "list-disc pl-5 space-y-2">
+                  {courseCategories.find(category => category.name === "Science")?.courses.map((course, index) => (
+                    <li key={index}>{course}</li>
+                  ))}
+                </ul>
+              }
             />
             <ExpandableCard 
               title = "Humanities"
               collapsedContent = "Venture through various historical periods and literary analyses with us!"
-              expandedContent = {courseCategories.find(category => category.name === "Humanities")?.courses.join("\n") || ""}
+              expandedContent = {
+                <ul className =  "list-disc pl-5 space-y-2">
+                  {courseCategories.find(category => category.name === "Humanities")?.courses.map((course, index) => (
+                    <li key={index}>{course}</li>
+                  ))}
+                </ul>
+              }
             />
           </div>
 
@@ -146,17 +157,35 @@ export const OurServicesSubsection = (): JSX.Element => {
             <ExpandableCard 
               title = "Test & Admissions Prep"
               collapsedContent = "Testing and admissions got you stressed? Let us guide you!"
-              expandedContent = {courseCategories.find(category => category.name === "Test & Admissions Prep")?.courses.join("\n") || ""}
+              expandedContent = {
+                <ul className =  "list-disc pl-5 space-y-2">
+                  {courseCategories.find(category => category.name === "Test & Admissions Prep")?.courses.map((course, index) => (
+                    <li key={index}>{course}</li>
+                  ))}
+                </ul>
+              }
             />
             <ExpandableCard 
               title = "Niche Courses"
               collapsedContent = "Want to flex new skills on your friends and applications? Check out our niche courses!"
-              expandedContent = {courseCategories.find(category => category.name === "Niche Courses")?.courses.join("\n") || ""}
+              expandedContent = {
+                <ul className =  "list-disc pl-5 space-y-2">
+                  {courseCategories.find(category => category.name === "Niche Courses")?.courses.map((course, index) => (
+                    <li key={index}>{course}</li>
+                  ))}
+                </ul>
+              }
             />
             <ExpandableCard 
               title = "Packages"
               collapsedContent = "With our packages, get the best value for your learning journey!"
-              expandedContent = {packageCategories.find(pack => pack.name === "Packages")?.packages.join("\n") || ""}
+              expandedContent = {
+                <ul className =  "list-disc pl-5 space-y-2">
+                  {packageCategories.find(category => category.name === "Packages")?.packages.map((packageDesc, index) => (
+                    <li key={index}>{packageDesc}</li>
+                  ))}
+                </ul>
+              }
             />
           </div>  
         </div>
