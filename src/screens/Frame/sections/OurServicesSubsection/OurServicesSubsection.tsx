@@ -1,6 +1,5 @@
 import ExpandableCard from "../../../../assets/expandableCard";
 import { NavbarSubsection } from "../NavbarSubsection";
-import { ContactForm } from "./contactForm";
 
 export const OurServicesSubsection = (): JSX.Element => {
   // Course data organized by category
@@ -209,9 +208,6 @@ export const OurServicesSubsection = (): JSX.Element => {
             />
           </div>  
         </div>
-        
-        {/* Contact Form */}
-        <ContactForm/>
       </div>
     </section>
   );

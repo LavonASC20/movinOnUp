@@ -8,6 +8,7 @@ import { LandingPageSubsection } from "./sections/LandingPageSubsection";
 import { OurMissionSubsection } from "./sections/OurMissionSubsection";
 import { OurServicesSubsection } from "./sections/OurServicesSubsection/OurServicesSubsection";
 import { OurTeamSubsection } from "./sections/OurTeamSubsection";
+import { OurContactFormSubsection } from "./sections/OurContactFormSubsection";
 
 export const Frame = (): JSX.Element => {
   return (
@@ -21,6 +22,7 @@ export const Frame = (): JSX.Element => {
                 <Route path='/ourmission' element={<OurMissionSubsection />} />
                 <Route path='/ourservices' element={<OurServicesSubsection />} />
                 <Route path='/ourteam' element={<OurTeamSubsection />} />
+                <Route path='/ourcontactform' element={<OurContactFormSubsection/>} />
                 <Route path='*' element={<Navigate to='/' />} />
             </Routes>
         </Router>
