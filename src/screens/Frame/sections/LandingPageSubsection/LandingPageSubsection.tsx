@@ -138,8 +138,8 @@ export const LandingPageSubsection = (): JSX.Element => {
           Who We Are
         </h2>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
-          {teamMembers.slice(0, 3).map((member, index) => (
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
+          {teamMembers.slice(0, 2).map((member, index) => (
             <Card key={index} className="border-none">
               <CardContent className="p-0">
                 <div className="rounded-lg overflow-hidden">
@@ -159,8 +159,8 @@ export const LandingPageSubsection = (): JSX.Element => {
           ))}
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          {teamMembers.slice(3, 5).map((member, index) => (
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
+          {teamMembers.slice(2, 4).map((member, index) => (
             <Card key={index} className="border-none">
               <CardContent className="p-0">
                 <div className="rounded-lg overflow-hidden">
