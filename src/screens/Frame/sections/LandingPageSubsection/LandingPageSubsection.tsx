@@ -57,7 +57,11 @@ export const LandingPageSubsection = (): JSX.Element => {
         </div>
 
         <div className="mt-8 w-full max-w-[1000px]">
-          <img src="/movinOnUp/usLetter.png" className="w-full h-auto object-cover" alt="Us letter image" />
+          <img 
+            src="/movinOnUp/usLetter.png" 
+            className="w-[75vw] h-auto object-cover" 
+            alt="Us letter image" 
+          />
         </div>
       </div>
 
@@ -84,7 +88,7 @@ export const LandingPageSubsection = (): JSX.Element => {
               </span>
             </div>
 
-            <div className="mt-12">
+            <div className="mt-12 flex justify-center">
               <a href = "/movinOnUp/ourservices">
                 <Button className="bg-[#a18eff] rounded-lg shadow-button-shadow text-white text-2xl px-6 py-3 font-medium font-['Inter',Helvetica]">
                   Our Offerings
