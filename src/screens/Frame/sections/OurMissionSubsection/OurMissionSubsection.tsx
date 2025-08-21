@@ -12,12 +12,14 @@ export const OurMissionSubsection = (): JSX.Element => {
 
         <div className="max-w-[1139px] mt-6 mb-12">
           <p className="font-['Lexend',Helvetica] font-medium text-black text-[22px] text-center leading-[33px]">
-            Through our work, we redefine how AI is used in education and
-            inspire young people K-12 through by combining AI and human
-            interaction. We provide young minds of all ages with the tools,
-            ethics, and support to pursue knowledge and professional interests
-            in fun and equitable ways to fill the gaps in traditional schooling
-            systems and reinforce academic skills and expectations
+            We redefine how AI is used in modern education. 
+            We provide young minds of all ages with the tools,
+            ethics, and support to pursue knowledge and their professional interests.
+            Our platform encourages this in fun and equitable ways, filling gaps 
+            in traditional educational systems while reinforcing academic skills.
+            Rather than exercising an outcome-first approach, we focus on the 
+            student-centric process of meta-learning, empowering students to take control
+            of their own education.
           </p>
         </div>
 
@@ -35,14 +37,13 @@ export const OurMissionSubsection = (): JSX.Element => {
 
         <div className="max-w-[1126px] mt-6 mb-12">
           <p className="font-['Lexend',Helvetica] font-medium text-black text-[22px] text-center leading-[33px]">
-            We seek to inspire young people—regardless of background—to create
-            and pursue knowledge for the sake of learning. We aim to increase
-            access to resources and foster intellectually welcoming and
-            inclusive social and academic spaces, in which students are able to
-            learn equitably, make impacts in their environments, and exercise a
-            freedom to chase virtue and knowledge. We plan to empower positive
-            impact in their own lives and in the lives of people in their
-            communities through building their confidence in learning.
+            We aim to increase students' access to important resources to further their 
+            pursuit of knowledge. We will continue to foster inclusive
+            social and academic spaces. We will push students to 
+            learn rigorously, exercise their freedom to chase virtue, and 
+            become more confident in their own abilities. We plan to empower our students
+            to realize positive impact in their lives and in the lives of people in their
+            communities.
           </p>
         </div>
 
