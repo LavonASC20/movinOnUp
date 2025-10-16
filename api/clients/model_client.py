@@ -21,7 +21,7 @@ class ModelClient:
     def call_model(self, prompt: str, max_tokens: int = 500, temperature: float = 0.7) -> str:
         """
         Sends a prompt to the foundation model and returns the response.
-        Right now this simulates a call, but you’ll plug in the real provider later.
+        Right now this simulates a call, but you'll plug in the real provider later.
         """
         print(f"\n[INFO] Sending prompt to {self.provider.upper()} model `{self.model_name}`...")
         time.sleep(0.5)  # simulate latency

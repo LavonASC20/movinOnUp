@@ -17,8 +17,8 @@ def main():
     print("=== Foundation Model Console Caller ===")
     print("Type 'quit' to exit.\n")
 
-    while True:
-        user_prompt = input("You: ")
+    while True: # check other synchronicity options
+        user_prompt = input("You: ") 
 
         if user_prompt.lower() in {"quit", "exit"}:
             print("Goodbye!")
