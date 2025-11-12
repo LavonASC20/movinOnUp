@@ -112,42 +112,42 @@ export const OurServicesSubsection = (): JSX.Element => {
   ]
 
   const mathCollapsedStyle = {
-    backgroundImage: "url(/math_symbols.png)",
+    backgroundImage: "url(/movinonup/frontend/public/math_symbols.png)",
     backgroundSize: "cover",
     backgroundPosition: "center",
     backgroundRepeat: "no-repeat",
   }
 
   const scienceCollapsedStyle = {
-    backgroundImage: "url(/chemical_flask.png)",
+    backgroundImage: "url(/movinonup/frontend/public/chemical_flask.png)",
     backgroundSize: "cover",
     backgroundPosition: "center",
     backgroundRepeat: "no-repeat",
   }
 
   const humanitiesCollapsedStyle = {
-    backgroundImage: "url(/history_book.png)",
+    backgroundImage: "url(/movinonup/frontend/public/history_book.png)",
     backgroundSize: "cover",
     backgroundPosition: "center",
     backgroundRepeat: "no-repeat",
   }
 
   const nicheCollapsedStyle = {
-    backgroundImage: "url(/gaming_controller.png)",
+    backgroundImage: "url(/movinonup/frontend/public/gaming_controller.png)",
     backgroundSize: "cover",
     backgroundPosition: "center",
     backgroundRepeat: "no-repeat",
   }
 
   const testPrepCollapsedStyle = {
-    backgroundImage: "url(/grad_cap.png)",
+    backgroundImage: "url(/movinonup/frontend/public/grad_cap.png)",
     backgroundSize: "cover",
     backgroundPosition: "center",
     backgroundRepeat: "no-repeat",
   }
 
   const packagesCollapsedStyle = {
-    backgroundImage: "url(/rocket_ship.png)",
+    backgroundImage: "url(/movinonup/frontend/public/rocket_ship.png)",
     backgroundSize: "cover",
     backgroundPosition: "center",
     backgroundRepeat: "no-repeat",
