@@ -111,6 +111,48 @@ export const OurServicesSubsection = (): JSX.Element => {
     }
   ]
 
+  const mathCollapsedStyle = {
+    backgroundImage: "url(/math_symbols.png)",
+    backgroundSize: "cover",
+    backgroundPosition: "center",
+    backgroundRepeat: "no-repeat",
+  }
+
+  const scienceCollapsedStyle = {
+    backgroundImage: "url(/chemical_flask.png)",
+    backgroundSize: "cover",
+    backgroundPosition: "center",
+    backgroundRepeat: "no-repeat",
+  }
+
+  const humanitiesCollapsedStyle = {
+    backgroundImage: "url(/history_book.png)",
+    backgroundSize: "cover",
+    backgroundPosition: "center",
+    backgroundRepeat: "no-repeat",
+  }
+
+  const nicheCollapsedStyle = {
+    backgroundImage: "url(/gaming_controller.png)",
+    backgroundSize: "cover",
+    backgroundPosition: "center",
+    backgroundRepeat: "no-repeat",
+  }
+
+  const testPrepCollapsedStyle = {
+    backgroundImage: "url(/grad_cap.png)",
+    backgroundSize: "cover",
+    backgroundPosition: "center",
+    backgroundRepeat: "no-repeat",
+  }
+
+  const packagesCollapsedStyle = {
+    backgroundImage: "url(/rocket_ship.png)",
+    backgroundSize: "cover",
+    backgroundPosition: "center",
+    backgroundRepeat: "no-repeat",
+  }
+
   // Navigation items
   return (
     <section className="w-full bg-white pt-[100px]">
@@ -139,8 +181,8 @@ export const OurServicesSubsection = (): JSX.Element => {
             <ExpandableCard 
               title = "Math"
               collapsedContent = {
-                <div style = {{ backgroundImage: 'url("public/math_symbols.PNG")', backgroundSize: 'cover' }}>
-                  From counting to partial derivatives, we've got you covered!
+                <div style = { mathCollapsedStyle }>
+                  <h1>From counting to partial derivatives, we've got you covered!</h1>
                 </div>
               }
               expandedContent = {
@@ -153,7 +195,11 @@ export const OurServicesSubsection = (): JSX.Element => {
             />
             <ExpandableCard 
               title = "Science"
-              collapsedContent = "Learn about tiny microbes, chemical reactions, or even planetary motion!"
+              collapsedContent = {
+                <div style = { scienceCollapsedStyle }>
+                  <h1>Learn about tiny microbes, chemical reactions, or even planetary motion!</h1>
+                </div>
+              }
               expandedContent = {
                 <ul className =  "list-disc pl-5 space-y-2">
                   {courseCategories.find(category => category.name === "Science")?.courses.map((course, index) => (
@@ -164,7 +210,11 @@ export const OurServicesSubsection = (): JSX.Element => {
             />
             <ExpandableCard 
               title = "Humanities"
-              collapsedContent = "Venture through various historical periods and literary analyses with us!"
+              collapsedContent = {
+                <div style = { humanitiesCollapsedStyle }>
+                  <h1>Venture through various historical periods and literary analyses with us!</h1>
+                </div>
+              }
               expandedContent = {
                 <ul className =  "list-disc pl-5 space-y-2">
                   {courseCategories.find(category => category.name === "Humanities")?.courses.map((course, index) => (
@@ -179,7 +229,11 @@ export const OurServicesSubsection = (): JSX.Element => {
           <div className = "flex flex-col gap-8">
             <ExpandableCard 
               title = "Test & Admissions Prep"
-              collapsedContent = "Testing and admissions got you stressed? Let us guide you!"
+              collapsedContent = {
+                <div style = { testPrepCollapsedStyle }>
+                  <h1>Testing and admissions got you stressed? Let us guide you!</h1>
+                </div>
+              }
               expandedContent = {
                 <ul className =  "list-disc pl-5 space-y-2">
                   {courseCategories.find(category => category.name === "Test & Admissions Prep")?.courses.map((course, index) => (
@@ -190,7 +244,11 @@ export const OurServicesSubsection = (): JSX.Element => {
             />
             <ExpandableCard 
               title = "Niche Courses"
-              collapsedContent = "Want to flex new skills on your friends and applications? Check out our niche courses!"
+              collapsedContent = {
+                <div style = { nicheCollapsedStyle }>
+                  <h1>Want to flex new skills on your friends and applications? Check out our niche courses!</h1>
+                </div>
+              }
               expandedContent = {
                 <ul className =  "list-disc pl-5 space-y-2">
                   {courseCategories.find(category => category.name === "Niche Courses")?.courses.map((course, index) => (
@@ -201,7 +259,11 @@ export const OurServicesSubsection = (): JSX.Element => {
             />
             <ExpandableCard 
               title = "Packages"
-              collapsedContent = "With our packages, get the best value for your learning journey!"
+              collapsedContent = {
+                <div style = { packagesCollapsedStyle }>
+                  <h1>With our packages, get the best value for your learning journey!</h1>
+                </div>
+              }
               expandedContent = {
                 <ul className =  "list-disc pl-5 space-y-2">
                   {packageCategories.find(category => category.name === "Packages")?.packages.map((packageDesc, index) => (
