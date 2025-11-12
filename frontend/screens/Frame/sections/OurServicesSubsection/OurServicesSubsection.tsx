@@ -112,7 +112,7 @@ export const OurServicesSubsection = (): JSX.Element => {
   ]
 
   const mathCollapsedStyle = {
-    backgroundImage: "url(/math_symbols.png)",
+    backgroundImage: "url(/public/math_symbols.png)",
     backgroundSize: "cover",
     backgroundPosition: "center",
     backgroundRepeat: "no-repeat",
@@ -126,28 +126,28 @@ export const OurServicesSubsection = (): JSX.Element => {
   }
 
   const humanitiesCollapsedStyle = {
-    backgroundImage: "url(/frontend/public/history_book.png)",
+    backgroundImage: "url(/public/history_book.png)",
     backgroundSize: "cover",
     backgroundPosition: "center",
     backgroundRepeat: "no-repeat",
   }
 
   const nicheCollapsedStyle = {
-    backgroundImage: "url(/movinOnUp/frontend/public/gaming_controller.png)",
+    backgroundImage: "url(/public/gaming_controller.png)",
     backgroundSize: "cover",
     backgroundPosition: "center",
     backgroundRepeat: "no-repeat",
   }
 
   const testPrepCollapsedStyle = {
-    backgroundImage: "url(/movinOnUp/frontend/public/grad_cap.png)",
+    backgroundImage: "url(/public/grad_cap.png)",
     backgroundSize: "cover",
     backgroundPosition: "center",
     backgroundRepeat: "no-repeat",
   }
 
   const packagesCollapsedStyle = {
-    backgroundImage: "url(/movinOnUp/rocket_ship.png)",
+    backgroundImage: "url(/public/rocket_ship.png)",
     backgroundSize: "cover",
     backgroundPosition: "center",
     backgroundRepeat: "no-repeat",
@@ -181,9 +181,17 @@ export const OurServicesSubsection = (): JSX.Element => {
             <ExpandableCard 
               title = "Math"
               collapsedContent = {
-                <div style = { mathCollapsedStyle }>
+                <div>
+                  <img
+                    src="/movinOnUp/math_symbols.png"
+                    alt="Math Symbols"
+                    className="w-full h-full object-cover mb-4"  
+                  />
                   <h1>From counting to partial derivatives, we've got you covered!</h1>
                 </div>
+                // <div style = { mathCollapsedStyle }>
+                //   <h1>From counting to partial derivatives, we've got you covered!</h1>
+                // </div>
               }
               expandedContent = {
                 <ul className =  "list-disc pl-5 space-y-2">
