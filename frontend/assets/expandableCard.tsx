@@ -21,10 +21,14 @@ function ExpandableCard({ title, img, collapsedContent, expandedContent }: Expan
       className="bg-white border-2 border-[#D2E7FF] rounded-xl p-6 cursor-pointer transition-all duration-300 ease-in-out hover:shadow-lg hover:border-[#f2b63c] hover:scale-[1.02] max-w-md mx-auto"
       onClick={toggleExpand}
     >
+      {/* Image */}
+      <div className="flex-shrink-0 flex items-center justify-center w-24 h-24 rounded-lg bg-gradient-to-br from-purple-50 to-purple-100">
+          <div className="text-5xl">{img}</div>
+        </div>
+        
       {/* Header */}
       <div className="flex items-center justify-between gap-4 mb-4">
         <h2 className="text-xl font-semibold text-gray-800">{title}</h2>
-        <div>{img}</div>
         <div
           className={`w-6 h-6 rounded-full bg-[#f2b63c] flex items-center justify-center transition-transform duration-300 ${
             isExpanded ? "rotate-180" : ""

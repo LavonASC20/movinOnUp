@@ -186,7 +186,11 @@ export const OurServicesSubsection = (): JSX.Element => {
           <div className = "flex flex-col gap-8">
             <ExpandableCard 
               title = "Math"
-              img = {<img src={mathBackground} alt="Math Symbol" className="w-6 h-6 ml-2 inline-block" />}
+              img = {<img 
+                        src={mathBackground} 
+                        alt="Math Symbol" 
+                        className="w-6 h-6 ml-2 inline-block" 
+                      />}
               collapsedContent = {
                 <h1>From counting to partial derivatives, we've got you covered!</h1>
                 // <div style = { mathCollapsedStyle }>
@@ -203,7 +207,11 @@ export const OurServicesSubsection = (): JSX.Element => {
             />
             <ExpandableCard 
               title = "Science"
-              img = {<img src={scienceBackground} alt="Math Symbol" className="w-6 h-6 ml-2 inline-block" />}
+              img = {<img 
+                        src={scienceBackground} 
+                        alt="Math Symbol" 
+                        className="w-6 h-6 ml-2 inline-block"
+                      />}
               collapsedContent = {
                 <h1>Learn about tiny microbes, chemical reactions, or even planetary motion!</h1>
                 // <div style = { scienceCollapsedStyle }>
@@ -220,7 +228,11 @@ export const OurServicesSubsection = (): JSX.Element => {
             />
             <ExpandableCard 
               title = "Humanities"
-              img = {<img src={humanitiesBackground} alt="Math Symbol" className="w-6 h-6 ml-2 inline-block" />}
+              img = {<img 
+                        src={humanitiesBackground} 
+                        alt="Math Symbol" 
+                        className="w-6 h-6 ml-2 inline-block" 
+                      />}
               collapsedContent = {
                 <h1>Venture through various historical periods and literary analyses with us!</h1>
                 // <div style = { humanitiesCollapsedStyle }>
@@ -241,7 +253,11 @@ export const OurServicesSubsection = (): JSX.Element => {
           <div className = "flex flex-col gap-8">
             <ExpandableCard 
               title = "Test & Admissions Prep"
-              img = {<img src={testPrepBackground} alt="Math Symbol" className="w-6 h-6 ml-2 inline-block" />}
+              img = {<img 
+                        src={testPrepBackground} 
+                        alt="Math Symbol" 
+                        className="w-6 h-6 ml-2 inline-block" 
+                      />}
               collapsedContent = {
                 <h1>Testing and admissions got you stressed? Let us guide you!</h1>
                 // <div style = { testPrepCollapsedStyle }>
@@ -258,7 +274,11 @@ export const OurServicesSubsection = (): JSX.Element => {
             />
             <ExpandableCard 
               title = "Niche Courses"
-              img = {<img src={nicheBackground} alt="Math Symbol" className="w-6 h-6 ml-2 inline-block" />}
+              img = {<img 
+                        src={nicheBackground} 
+                        alt="Math Symbol" 
+                        className="w-6 h-6 ml-2 inline-block"
+                      />}
               collapsedContent = {
                 <h1>Want to flex new skills on your friends and applications? Check out our niche courses!</h1>
                 // <div style = { nicheCollapsedStyle }>
@@ -275,7 +295,11 @@ export const OurServicesSubsection = (): JSX.Element => {
             />
             <ExpandableCard 
               title = "Packages"
-              img = {<img src={packagesBackground} alt="Math Symbol" className="w-6 h-6 ml-2 inline-block" />}
+              img = {<img 
+                        src={packagesBackground} 
+                        alt="Math Symbol" 
+                        className="w-6 h-6 ml-2 inline-block" 
+                      />}
               collapsedContent = {
                 <h1>With our packages, get the best value for your learning journey!</h1>
                 // <div style = { packagesCollapsedStyle }>
