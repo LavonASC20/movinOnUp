@@ -186,18 +186,11 @@ export const OurServicesSubsection = (): JSX.Element => {
           <div className = "flex flex-col gap-8">
             <ExpandableCard 
               title = "Math"
+              img = {<img src={mathBackground} alt="Math Symbol" className="w-6 h-6 ml-2 inline-block" />}
               collapsedContent = {
-                <div>
-                  <img
-                    src="/movinOnUp/math_symbols.png"
-                    alt="Math Symbols"
-                    className="w-full h-full object-cover mb-4"  
-                  />
+                <div style = { mathCollapsedStyle }>
                   <h1>From counting to partial derivatives, we've got you covered!</h1>
                 </div>
-                // <div style = { mathCollapsedStyle }>
-                //   <h1>From counting to partial derivatives, we've got you covered!</h1>
-                // </div>
               }
               expandedContent = {
                 <ul className =  "list-disc pl-5 space-y-2">
@@ -209,6 +202,7 @@ export const OurServicesSubsection = (): JSX.Element => {
             />
             <ExpandableCard 
               title = "Science"
+              img = {<img src={scienceBackground} alt="Math Symbol" className="w-6 h-6 ml-2 inline-block" />}
               collapsedContent = {
                 <div style = { scienceCollapsedStyle }>
                   <h1>Learn about tiny microbes, chemical reactions, or even planetary motion!</h1>
@@ -224,6 +218,7 @@ export const OurServicesSubsection = (): JSX.Element => {
             />
             <ExpandableCard 
               title = "Humanities"
+              img = {<img src={humanitiesBackground} alt="Math Symbol" className="w-6 h-6 ml-2 inline-block" />}
               collapsedContent = {
                 <div style = { humanitiesCollapsedStyle }>
                   <h1>Venture through various historical periods and literary analyses with us!</h1>
@@ -243,6 +238,7 @@ export const OurServicesSubsection = (): JSX.Element => {
           <div className = "flex flex-col gap-8">
             <ExpandableCard 
               title = "Test & Admissions Prep"
+              img = {<img src={testPrepBackground} alt="Math Symbol" className="w-6 h-6 ml-2 inline-block" />}
               collapsedContent = {
                 <div style = { testPrepCollapsedStyle }>
                   <h1>Testing and admissions got you stressed? Let us guide you!</h1>
@@ -258,6 +254,7 @@ export const OurServicesSubsection = (): JSX.Element => {
             />
             <ExpandableCard 
               title = "Niche Courses"
+              img = {<img src={nicheBackground} alt="Math Symbol" className="w-6 h-6 ml-2 inline-block" />}
               collapsedContent = {
                 <div style = { nicheCollapsedStyle }>
                   <h1>Want to flex new skills on your friends and applications? Check out our niche courses!</h1>
@@ -273,6 +270,7 @@ export const OurServicesSubsection = (): JSX.Element => {
             />
             <ExpandableCard 
               title = "Packages"
+              img = {<img src={packagesBackground} alt="Math Symbol" className="w-6 h-6 ml-2 inline-block" />}
               collapsedContent = {
                 <div style = { packagesCollapsedStyle }>
                   <h1>With our packages, get the best value for your learning journey!</h1>
