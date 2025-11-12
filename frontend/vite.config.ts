@@ -10,13 +10,13 @@ export default defineConfig(({ mode }) => ({
     mode === "development" && screenGraphPlugin(),
   ].filter(Boolean), 
 
-  publicDir: "/frontend/public",
+  publicDir: "public",
 
   build: {
-    outDir: "/frontend/docs",
+    outDir: "docs",
   },
 
-  base: "./",
+  base: "/movinOnUp/",
 
   css: {
     postcss: {
