@@ -10,10 +10,10 @@ export default defineConfig(({ mode }) => ({
     mode === "development" && screenGraphPlugin(),
   ].filter(Boolean), 
 
-  publicDir: "public",
+  publicDir: "/frontend/public",
 
   build: {
-    outDir: "docs",
+    outDir: "/frontend/docs",
   },
 
   base: "./",
