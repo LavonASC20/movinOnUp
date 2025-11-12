@@ -32,3 +32,5 @@ node_modules
 
 # Screen graph
 .screen-graph.json
+
+venv
