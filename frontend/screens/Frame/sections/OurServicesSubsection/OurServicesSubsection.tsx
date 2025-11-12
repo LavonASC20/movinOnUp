@@ -112,42 +112,42 @@ export const OurServicesSubsection = (): JSX.Element => {
   ]
 
   const mathCollapsedStyle = {
-    backgroundImage: "url(/movinonup/frontend/public/math_symbols.png)",
+    backgroundImage: "url(/math_symbols.png)",
     backgroundSize: "cover",
     backgroundPosition: "center",
     backgroundRepeat: "no-repeat",
   }
 
   const scienceCollapsedStyle = {
-    backgroundImage: "url(/movinonup/frontend/public/chemical_flask.png)",
+    backgroundImage: "url(/public/chemical_flask.png)",
     backgroundSize: "cover",
     backgroundPosition: "center",
     backgroundRepeat: "no-repeat",
   }
 
   const humanitiesCollapsedStyle = {
-    backgroundImage: "url(/movinonup/frontend/public/history_book.png)",
+    backgroundImage: "url(/frontend/public/history_book.png)",
     backgroundSize: "cover",
     backgroundPosition: "center",
     backgroundRepeat: "no-repeat",
   }
 
   const nicheCollapsedStyle = {
-    backgroundImage: "url(/movinonup/frontend/public/gaming_controller.png)",
+    backgroundImage: "url(/movinOnUp/frontend/public/gaming_controller.png)",
     backgroundSize: "cover",
     backgroundPosition: "center",
     backgroundRepeat: "no-repeat",
   }
 
   const testPrepCollapsedStyle = {
-    backgroundImage: "url(/movinonup/frontend/public/grad_cap.png)",
+    backgroundImage: "url(/movinOnUp/frontend/public/grad_cap.png)",
     backgroundSize: "cover",
     backgroundPosition: "center",
     backgroundRepeat: "no-repeat",
   }
 
   const packagesCollapsedStyle = {
-    backgroundImage: "url(/movinonup/frontend/public/rocket_ship.png)",
+    backgroundImage: "url(/movinOnUp/rocket_ship.png)",
     backgroundSize: "cover",
     backgroundPosition: "center",
     backgroundRepeat: "no-repeat",
