@@ -188,9 +188,10 @@ export const OurServicesSubsection = (): JSX.Element => {
               title = "Math"
               img = {<img src={mathBackground} alt="Math Symbol" className="w-6 h-6 ml-2 inline-block" />}
               collapsedContent = {
-                <div style = { mathCollapsedStyle }>
-                  <h1>From counting to partial derivatives, we've got you covered!</h1>
-                </div>
+                <h1>From counting to partial derivatives, we've got you covered!</h1>
+                // <div style = { mathCollapsedStyle }>
+                //   <h1>From counting to partial derivatives, we've got you covered!</h1>
+                // </div>
               }
               expandedContent = {
                 <ul className =  "list-disc pl-5 space-y-2">
@@ -204,9 +205,10 @@ export const OurServicesSubsection = (): JSX.Element => {
               title = "Science"
               img = {<img src={scienceBackground} alt="Math Symbol" className="w-6 h-6 ml-2 inline-block" />}
               collapsedContent = {
-                <div style = { scienceCollapsedStyle }>
-                  <h1>Learn about tiny microbes, chemical reactions, or even planetary motion!</h1>
-                </div>
+                <h1>Learn about tiny microbes, chemical reactions, or even planetary motion!</h1>
+                // <div style = { scienceCollapsedStyle }>
+                //   <h1>Learn about tiny microbes, chemical reactions, or even planetary motion!</h1>
+                // </div>
               }
               expandedContent = {
                 <ul className =  "list-disc pl-5 space-y-2">
@@ -220,9 +222,10 @@ export const OurServicesSubsection = (): JSX.Element => {
               title = "Humanities"
               img = {<img src={humanitiesBackground} alt="Math Symbol" className="w-6 h-6 ml-2 inline-block" />}
               collapsedContent = {
-                <div style = { humanitiesCollapsedStyle }>
-                  <h1>Venture through various historical periods and literary analyses with us!</h1>
-                </div>
+                <h1>Venture through various historical periods and literary analyses with us!</h1>
+                // <div style = { humanitiesCollapsedStyle }>
+                //   <h1>Venture through various historical periods and literary analyses with us!</h1>
+                // </div>
               }
               expandedContent = {
                 <ul className =  "list-disc pl-5 space-y-2">
@@ -240,9 +243,10 @@ export const OurServicesSubsection = (): JSX.Element => {
               title = "Test & Admissions Prep"
               img = {<img src={testPrepBackground} alt="Math Symbol" className="w-6 h-6 ml-2 inline-block" />}
               collapsedContent = {
-                <div style = { testPrepCollapsedStyle }>
-                  <h1>Testing and admissions got you stressed? Let us guide you!</h1>
-                </div>
+                <h1>Testing and admissions got you stressed? Let us guide you!</h1>
+                // <div style = { testPrepCollapsedStyle }>
+                //   <h1>Testing and admissions got you stressed? Let us guide you!</h1>
+                // </div>
               }
               expandedContent = {
                 <ul className =  "list-disc pl-5 space-y-2">
@@ -256,9 +260,10 @@ export const OurServicesSubsection = (): JSX.Element => {
               title = "Niche Courses"
               img = {<img src={nicheBackground} alt="Math Symbol" className="w-6 h-6 ml-2 inline-block" />}
               collapsedContent = {
-                <div style = { nicheCollapsedStyle }>
-                  <h1>Want to flex new skills on your friends and applications? Check out our niche courses!</h1>
-                </div>
+                <h1>Want to flex new skills on your friends and applications? Check out our niche courses!</h1>
+                // <div style = { nicheCollapsedStyle }>
+                //   <h1>Want to flex new skills on your friends and applications? Check out our niche courses!</h1>
+                // </div>
               }
               expandedContent = {
                 <ul className =  "list-disc pl-5 space-y-2">
@@ -272,9 +277,10 @@ export const OurServicesSubsection = (): JSX.Element => {
               title = "Packages"
               img = {<img src={packagesBackground} alt="Math Symbol" className="w-6 h-6 ml-2 inline-block" />}
               collapsedContent = {
-                <div style = { packagesCollapsedStyle }>
-                  <h1>With our packages, get the best value for your learning journey!</h1>
-                </div>
+                <h1>With our packages, get the best value for your learning journey!</h1>
+                // <div style = { packagesCollapsedStyle }>
+                //   <h1>With our packages, get the best value for your learning journey!</h1>
+                // </div>
               }
               expandedContent = {
                 <ul className =  "list-disc pl-5 space-y-2">
