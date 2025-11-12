@@ -138,7 +138,11 @@ export const OurServicesSubsection = (): JSX.Element => {
           <div className = "flex flex-col gap-8">
             <ExpandableCard 
               title = "Math"
-              collapsedContent = "From counting to partial derivatives, we've got you covered!"
+              collapsedContent = {
+                <div style = {{ backgroundImage: 'url("public\math_symbols.PNG")', backgroundSize: 'cover' }}>
+                  From counting to partial derivatives, we've got you covered!
+                </div>
+              }
               expandedContent = {
                 <ul className =  "list-disc pl-5 space-y-2">
                   {courseCategories.find(category => category.name === "Math")?.courses.map((course, index) => (
