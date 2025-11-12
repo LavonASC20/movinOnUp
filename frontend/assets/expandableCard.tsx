@@ -23,7 +23,8 @@ function ExpandableCard({ title, img, collapsedContent, expandedContent }: Expan
     >
       {/* Header */}
       <div className="flex items-center justify-between mb-4">
-        <h3 className="text-xl font-semibold text-gray-800">{title}{img}</h3>
+        <h3 className="text-xl font-semibold text-gray-800">{title}</h3>
+        <div>{img}</div>
         <div
           className={`w-6 h-6 rounded-full bg-[#f2b63c] flex items-center justify-center transition-transform duration-300 ${
             isExpanded ? "rotate-180" : ""
