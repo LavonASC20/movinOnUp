@@ -189,7 +189,7 @@ export const OurServicesSubsection = (): JSX.Element => {
               img = {<img 
                         src={mathBackground} 
                         alt="Math Symbol" 
-                        className="w-6 h-6 ml-2 inline-block" 
+                        className="w-50 h-50 ml-2 inline-block" 
                       />}
               collapsedContent = {
                 <h1>From counting to partial derivatives, we've got you covered!</h1>
