@@ -1,5 +1,11 @@
 import ExpandableCard from "../../../../assets/expandableCard";
 import { NavbarSubsection } from "../NavbarSubsection";
+import mathBackground from "../../../../public/math_symbols.png";
+import scienceBackground from "../../../../public/chemical_flask.png";
+import humanitiesBackground from "../../../../public/history_book.png";
+import nicheBackground from "../../../../public/gaming_controller.png";
+import testPrepBackground from "../../../../public/grad_cap.png";
+import packagesBackground from "../../../../public/rocket_ship.png";
 
 export const OurServicesSubsection = (): JSX.Element => {
   // Course data organized by category
@@ -112,42 +118,42 @@ export const OurServicesSubsection = (): JSX.Element => {
   ]
 
   const mathCollapsedStyle = {
-    backgroundImage: "url(/public/math_symbols.png)",
+    backgroundImage: `url(${mathBackground})`,
     backgroundSize: "cover",
     backgroundPosition: "center",
     backgroundRepeat: "no-repeat",
   }
 
   const scienceCollapsedStyle = {
-    backgroundImage: "url(/public/chemical_flask.png)",
+    backgroundImage: `url(${scienceBackground})`,
     backgroundSize: "cover",
     backgroundPosition: "center",
     backgroundRepeat: "no-repeat",
   }
 
   const humanitiesCollapsedStyle = {
-    backgroundImage: "url(/public/history_book.png)",
+    backgroundImage: `url(${humanitiesBackground})`,
     backgroundSize: "cover",
     backgroundPosition: "center",
     backgroundRepeat: "no-repeat",
   }
 
   const nicheCollapsedStyle = {
-    backgroundImage: "url(/public/gaming_controller.png)",
+    backgroundImage: `url(${nicheBackground})`,
     backgroundSize: "cover",
     backgroundPosition: "center",
     backgroundRepeat: "no-repeat",
   }
 
   const testPrepCollapsedStyle = {
-    backgroundImage: "url(/public/grad_cap.png)",
+    backgroundImage: `url(${testPrepBackground})`,
     backgroundSize: "cover",
     backgroundPosition: "center",
     backgroundRepeat: "no-repeat",
   }
 
   const packagesCollapsedStyle = {
-    backgroundImage: "url(/public/rocket_ship.png)",
+    backgroundImage: `url(${packagesBackground})`,
     backgroundSize: "cover",
     backgroundPosition: "center",
     backgroundRepeat: "no-repeat",
