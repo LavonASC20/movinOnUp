@@ -43,6 +43,7 @@ function ExpandableCard({ title, img, collapsedContent, expandedContent }: Expan
           </div>
         </div>
       </div>
+      
       {/* Content */}
       <div className="overflow-hidden">
         {isExpanded ? (
