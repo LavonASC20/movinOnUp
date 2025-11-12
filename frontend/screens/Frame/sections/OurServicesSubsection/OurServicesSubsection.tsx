@@ -139,7 +139,7 @@ export const OurServicesSubsection = (): JSX.Element => {
             <ExpandableCard 
               title = "Math"
               collapsedContent = {
-                <div style = {{ backgroundImage: 'url("public\math_symbols.PNG")', backgroundSize: 'cover' }}>
+                <div style = {{ backgroundImage: 'url("public/math_symbols.PNG")', backgroundSize: 'cover' }}>
                   From counting to partial derivatives, we've got you covered!
                 </div>
               }
