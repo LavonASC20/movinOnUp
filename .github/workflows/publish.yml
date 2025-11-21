@@ -30,14 +30,16 @@ jobs:
           static_site_generator: next
 
       - name: Build with Next.js
+        working-directory: ./frontend
         run: |
+          npm ci
           npx next build
           npx next export
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./out
+          path: ./frontend/out
 
   deploy:
     environment:
