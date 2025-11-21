@@ -1,42 +1,33 @@
 {
-  "version": "1.0.0",
-  "source": "./index.html",
-  "type": "module",
-  "name": "movin-on-up",
-  "description": "MFEs for movin on up",
-  "homepage": "https://LavonASC20.github.io/movinOnUp",
+  "name": "mou-test",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview",
-    "deploy": "gh-pages -d dist"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint"
   },
   "dependencies": {
-    "@radix-ui/react-separator": "^1.1.0",
-    "@radix-ui/react-slot": "^1.1.0",
-    "@radix-ui/react-tabs": "^1.1.1",
-    "class-variance-authority": "^0.7.0",
-    "clsx": "2.1.1",
-    "emailjs-com": "^3.2.0",
-    "lucide-react": "^0.453.0",
-    "react": "^18.2.0",
-    "react-bootstrap": "^2.10.10",
-    "react-dom": "^18.2.0",
-    "react-router-dom": "^6.8.1",
-    "tailwind-merge": "2.5.4"
+    "@emailjs/browser": "^4.4.1",
+    "@next/font": "^14.2.15",
+    "@radix-ui/react-separator": "^1.1.8",
+    "@radix-ui/react-slot": "^1.2.4",
+    "@radix-ui/react-tabs": "^1.1.13",
+    "class-variance-authority": "^0.7.1",
+    "next": "16.0.3",
+    "react": "19.2.0",
+    "react-dom": "19.2.0",
+    "tailwind-merge": "^3.4.0"
   },
   "devDependencies": {
-    "@animaapp/vite-plugin-screen-graph": "^0.1.5",
-    "@types/react": "18.2.0",
-    "@types/react-dom": "18.2.0",
-    "@vitejs/plugin-react": "4.3.4",
-    "esbuild": "0.24.0",
-    "gh-pages": "^6.3.0",
-    "globals": "15.12.0",
-    "tailwindcss": "3.4.16",
-    "vite": "6.0.4"
-  },
-  "alias": {
-    "@/*": "./src/components/ui/$1"
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19.2.6",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.0.3",
+    "tailwindcss": "^4",
+    "typescript": "^5"
   }
 }

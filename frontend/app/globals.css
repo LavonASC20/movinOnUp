@@ -1,0 +1,126 @@
+@import "tailwindcss";
+
+:root {
+  --body-base-font-family: "Inter", Helvetica;
+  --body-base-font-size: 16px;
+  --body-base-font-style: normal;
+  --body-base-font-weight: 400;
+  --body-base-letter-spacing: 0px;
+  --body-base-line-height: 140%;
+  --body-text-font-family: "Inter", Helvetica;
+  --body-text-font-size: 20px;
+  --body-text-font-style: normal;
+  --body-text-font-weight: 500;
+  --body-text-letter-spacing: 0px;
+  --body-text-line-height: 150%;
+  --button-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+  --single-line-body-base-font-family: "Inter", Helvetica;
+  --single-line-body-base-font-size: 16px;
+  --single-line-body-base-font-style: normal;
+  --single-line-body-base-font-weight: 400;
+  --single-line-body-base-letter-spacing: 0px;
+  --single-line-body-base-line-height: 100%;
+  --small-text-font-family: "Inter", Helvetica;
+  --small-text-font-size: 16px;
+  --small-text-font-style: normal;
+  --small-text-font-weight: 500;
+  --small-text-letter-spacing: 0px;
+  --small-text-line-height: 150%;
+  --title-font-family: "Inter", Helvetica;
+  --title-font-size: 64px;
+  --title-font-style: normal;
+  --title-font-weight: 700;
+  --title-letter-spacing: -1.28px;
+  --title-line-height: normal;
+}
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222.2 47.4% 11.2%;
+
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 47.4% 11.2%;
+
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+
+    --card: transparent;
+    --card-foreground: 222.2 47.4% 11.2%;
+
+    --primary: 219 44.3% 37.8%;
+    --primary-foreground: 210 40% 98%;
+
+    --secondary: 210 40% 96.1%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+
+    --accent: 210 40% 96.1%;
+    --accent-foreground: 222.2 47.4% 11.2%;
+
+    --destructive: 0 100% 50%;
+    --destructive-foreground: 210 40% 98%;
+
+    --ring: 215 20.2% 65.1%;
+
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 224 71% 4%;
+    --foreground: 213 31% 91%;
+
+    --muted: 223 47% 11%;
+    --muted-foreground: 215.4 16.3% 56.9%;
+
+    --accent: 216 34% 17%;
+    --accent-foreground: 210 40% 98%;
+
+    --popover: 224 71% 4%;
+    --popover-foreground: 215 20.2% 65.1%;
+
+    --border: 216 34% 17%;
+    --input: 216 34% 17%;
+
+    --card: transparent;
+    --card-foreground: 213 31% 91%;
+
+    --primary: 210 40% 98%;
+    --primary-foreground: 222 47.4% 1.2%;
+
+    --secondary: 222 47.4% 11.2%;
+    --secondary-foreground: 210 40% 98%;
+
+    --destructive: 0 63% 31%;
+    --destructive-foreground: 210 40% 98%;
+
+    --ring: 216 34% 17%;
+
+    --radius: 0.5rem;
+  }
+}
+
+@theme {
+  --color-background: hsl(var(--background));
+  --color-foreground: hsl(var(--foreground));
+
+  --color-primary: hsl(var(--primary));
+  --color-primary-foreground: hsl(var(--primary-foreground));
+
+  --color-secondary: hsl(var(--secondary));
+  --color-secondary-foreground: hsl(var(--secondary-foreground));
+
+  --color-accent: hsl(var(--accent));
+  --color-accent-foreground: hsl(var(--accent-foreground));
+
+  --color-destructive: hsl(var(--destructive));
+  --color-destructive-foreground: hsl(var(--destructive-foreground));
+
+  --color-border: hsl(var(--border));
+  --color-input: hsl(var(--input));
+  --color-ring: hsl(var(--ring));
+
+  --radius: 0.5rem;
+}
