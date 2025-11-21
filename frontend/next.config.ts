@@ -1,10 +1,13 @@
-import type { NextConfig } from "next";
+import type { NextConfig } from 'next';
 
 const nextConfig: NextConfig = {
-  /* config options here */
-  output: "export",
+  output: 'export', 
   reactStrictMode: true,
-  basePath: "/movinOnUp",
+  basePath: "movinOnUp",
+  images: {
+    unoptimized: true,
+  },
+  trailingSlash: true,
 };
 
 export default nextConfig;
